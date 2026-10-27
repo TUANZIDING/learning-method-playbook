@@ -1,0 +1,3 @@
+card_id,question,source,first_learned,last_review,last_interval_days,score_0_3,next_review
+CC-001,G1/S 检查点由哪些分子决定细胞能否进入 S 期？,示例,2026-10-27,,,,2026-10-28
+CC-002,p53 激活后为什么会导致 G1 阻滞？,示例,2026-10-27,,,,2026-10-28
