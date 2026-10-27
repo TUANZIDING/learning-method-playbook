@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  面向临床医生、科研人员和自学者：25 种学习方法按 A/B/C 三级证据整理，配七步流程、五个模板和一个细胞周期实例。<br>
-  For clinicians, researchers and self-learners: 25 methods graded by evidence, a seven-step workflow, five templates and a worked cell-cycle example.
+  面向临床医生、科研人员和自学者：26 种学习方法按 A/B/C 三级证据整理，配七步流程、六个模板、一门类比迁移演讲课程和一个细胞周期实例。<br>
+  For clinicians, researchers and self-learners: 26 methods graded by evidence, a seven-step workflow, six templates, a lecture course on analogical transfer and a worked cell-cycle example.
 </p>
 
 <p align="center">
@@ -22,18 +22,18 @@
   <a href="https://github.com/TUANZIDING/learning-method-playbook/actions"><img src="https://github.com/TUANZIDING/learning-method-playbook/actions/workflows/%E9%A1%B9%E7%9B%AE%E6%A3%80%E6%9F%A5v1.0.yml/badge.svg" alt="项目检查"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/guide-MIT-637568" alt="本仓库文档MIT许可"></a>
   <a href="文档/证据分级v1.0.md"><img src="https://img.shields.io/badge/evidence-A%20%C2%B7%20B%20%C2%B7%20C-1f5f63" alt="A、B、C三级证据"></a>
-  <a href="文档/参考文献v1.0.md"><img src="https://img.shields.io/badge/references-91%20verified-96704f" alt="91条文献已核对"></a>
+  <a href="文档/参考文献v1.0.md"><img src="https://img.shields.io/badge/references-116%20verified-96704f" alt="116条文献已核对"></a>
 </p>
 
 <p align="center">
-  <code>三级证据分层</code> · <code>流行说法核查</code> · <code>七步学习流程</code> · <code>五个模板</code> · <code>引用联网核对</code>
+  <code>三级证据分层</code> · <code>流行说法核查</code> · <code>七步学习流程</code> · <code>六个模板</code> · <code>演讲课程</code> · <code>引用联网核对</code>
 </p>
 
 <p align="center">
   <a href="#use-cases">使用场景</a> ｜ <a href="#methods">方法一览</a> ｜ <a href="#workflow">学习流程</a> ｜ <a href="#quick-start">快速开始</a> ｜ <a href="#capabilities">能力状态</a> ｜ <a href="#contribute">参与共创</a>
 </p>
 
-<p align="center"><sub>主图为本仓库原创SVG概念图。本仓库只收录作者自己的概括、书目信息与链接，不包含书籍或论文原文、原图。当前版本 1.0.0（2026-10-27）。</sub></p>
+<p align="center"><sub>主图为本仓库原创SVG概念图。本仓库只收录作者自己的概括、书目信息与链接，不包含书籍或论文原文、原图。当前版本 1.1.0（2026-10-27）。</sub></p>
 
 ---
 
@@ -51,6 +51,7 @@
 | 高效读论文、拆解经典文献 | [三遍阅读法](文档/B级方法v1.0.md#b7) · [文献拆解模板](模板/文献拆解v1.0.md) |
 | 检验自己是否真的懂了 | [费曼自测](模板/费曼自测v1.0.md) · [SOLO 自评](文档/B级方法v1.0.md#b2) |
 | 选闪卡、笔记、画图工具 | [开源工具与资源](文档/开源资源v1.0.md)（Anki/FSRS、Zotero、Obsidian 等，含星数与许可证） |
+| 用自己最熟的领域学新领域 | [类比迁移 B9](文档/B级方法v1.0.md#b9) · [60 分钟演讲课程](课程/类比迁移课程v1.0.md) · [类比映射表](模板/类比映射表v1.0.md) |
 | 看一个完整例子 | [从零学细胞周期](示例/细胞周期应用v1.0.md) |
 
 <a id="methods"></a>
@@ -60,7 +61,7 @@
 | 等级 | 含义 | 方法 |
 | --- | --- | --- |
 | **A 实证强** | 多项随机实验 + 元分析 | 提取练习、间隔重复、交错练习、精细询问、自我解释、双重编码、具体例子、刻意练习、认知负荷/样例效应、元认知校准；成长型思维（研究多但效应小、有争议） |
-| **B 理论公认** | 经典框架，整套方法缺强对照 | 布鲁姆分类、SOLO、费曼式解释、PBL、组块与专家理论、概念图、三遍阅读法、卡片笔记 |
+| **B 理论公认** | 经典框架，整套方法缺强对照 | 布鲁姆分类、SOLO、费曼式解释、PBL、组块与专家理论、概念图、三遍阅读法、卡片笔记、类比迁移（借熟悉学陌生） |
 | **C 实践推崇** | 书籍与经验，缺乏对照研究 | 多元思维模型、第一性原理、《原则》、超级学习者、学习如何学习、复盘/AAR（例外：汇报有元分析） |
 
 每条方法都写明：一句话定义、原始出处、证据等级与关键研究、常见误传、操作步骤、在医学/科研学习中的用法。[完整总表 →](文档/方法总表v1.0.md)
@@ -116,10 +117,10 @@ python3 验证/引用核对v1.0.py --online   # 逐条走 Crossref / PubMed / Op
 
 | 状态 | 内容 | 实际边界 |
 | --- | --- | --- |
-| 已整理 | 25 种方法（A 11 · B 8 · C 6）、流行说法核查 | 是入门级证据概括，不是系统综述 |
-| 已核对 | 91 条文献（68 篇期刊论文用 DOI/PMID，13 本图书用 ISBN，10 个网页用 HTTP）于 2026-10-27 核对 | 核对的是书目信息与可访问性；效应量只写摘要中核对过的数字 |
+| 已整理 | 26 种方法（A 11 · B 9 · C 6）、流行说法核查 | 是入门级证据概括，不是系统综述 |
+| 已核对 | 116 条文献（93 篇期刊论文/章节用 DOI/PMID，13 本图书用 ISBN，10 个网页用 HTTP）于 2026-10-27 核对 | 核对的是书目信息与可访问性；效应量只写摘要中核对过的数字 |
 | 已整理 | 33 个相关开源仓库，标注星数、许可证与对应方法 | 星数为 2026-10-27 读数；受欢迎不等于有证据 |
-| 可用 | 五个 Markdown 模板 + 一个 CSV 复习表 | 不含自动排期程序；可接 Anki/FSRS |
+| 可用 | 六个 Markdown 模板 + 一个 CSV 复习表；一门 60 分钟演讲课程 | 不含自动排期程序；可接 Anki/FSRS |
 | 示例 | 细胞周期七步实例 | 生物学内容为入门概括，以教材和原文为准 |
 | 不包含 | 书籍或论文原文、原图；医学或教育决策建议 | 需要原文请通过参考文献中的 DOI 获取 |
 
