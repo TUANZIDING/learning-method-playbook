@@ -1257,6 +1257,77 @@
       "source": "Harper Business",
       "isbn": "9780062852687",
       "check": "isbn"
+    },
+    {
+      "key": "jenkins1924",
+      "authors": "Jenkins JG, Dallenbach KM",
+      "year": 1924,
+      "title": "Obliviscence during Sleep and Waking",
+      "source": "The American Journal of Psychology",
+      "locator": "35(4):605-612",
+      "doi": "10.2307/1414040",
+      "kind": "article",
+      "check": "doi"
+    },
+    {
+      "key": "gais2006",
+      "authors": "Gais S, Lucas B, Born J",
+      "year": 2006,
+      "title": "Sleep after learning aids memory recall",
+      "source": "Learning & Memory",
+      "locator": "13(3):259-262",
+      "doi": "10.1101/lm.132106",
+      "kind": "article",
+      "check": "doi",
+      "pmid": "16741280"
+    },
+    {
+      "key": "schimke2021",
+      "authors": "Schimke EAE, Angwin AJ, Cheng BBY, Copland DA",
+      "year": 2021,
+      "title": "The effect of sleep on novel word learning in healthy adults: A systematic review and meta-analysis",
+      "source": "Psychonomic Bulletin & Review",
+      "locator": "28(6):1811-1838",
+      "doi": "10.3758/s13423-021-01980-3",
+      "pmid": "34549375",
+      "kind": "article",
+      "check": "doi"
+    },
+    {
+      "key": "crowley2024",
+      "authors": "Crowley R, Alderman E, Javadi AH, Tamminen J",
+      "year": 2024,
+      "title": "A systematic and meta-analytic review of the impact of sleep restriction on memory formation",
+      "source": "Neuroscience & Biobehavioral Reviews",
+      "locator": "167:105929",
+      "doi": "10.1016/j.neubiorev.2024.105929",
+      "kind": "article",
+      "check": "doi",
+      "pmid": "39427809"
+    },
+    {
+      "key": "newbury2019",
+      "authors": "Newbury CR, Monaghan P",
+      "year": 2019,
+      "title": "When does sleep affect veridical and false memory consolidation? A meta-analysis",
+      "source": "Psychonomic Bulletin & Review",
+      "locator": "26(2):387-400",
+      "doi": "10.3758/s13423-018-1528-4",
+      "pmid": "30264239",
+      "kind": "article",
+      "check": "doi"
+    },
+    {
+      "key": "falloon2022",
+      "authors": "Falloon K, Bhoopatkar H, Moir F, Nakatsuji M, Wearn A",
+      "year": 2022,
+      "title": "Sleep well to perform well: the association between sleep quality and medical student performance in a high-stakes clinical assessment",
+      "source": "SLEEP Advances",
+      "locator": "3(1):zpac019",
+      "doi": "10.1093/sleepadvances/zpac019",
+      "pmid": "37193410",
+      "kind": "article",
+      "check": "doi"
     }
   ]
 }
